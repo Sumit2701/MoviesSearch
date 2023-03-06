@@ -30,7 +30,7 @@ const App = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
          <img
-          src={'./logo192.png'}
+          src={'logo.svg'}
           alt="search"
           onClick={() => searchMovie(searchTerm)}
         />
